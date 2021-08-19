@@ -1,5 +1,6 @@
 import flask
 from flask import request, jsonify
+import logging
 import mysql.connector
 from mysql.connector.cursor import MySQLCursor
 
