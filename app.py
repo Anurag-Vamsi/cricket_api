@@ -14,7 +14,7 @@ def connect_db():
     Connect to db and return connection object
     """
 
-    conn = mysql.connector.connect(host="localhost",database = 'cricket_api',user="root",password="krishna12370")
+    conn = mysql.connector.connect(host="127.0. 0.1",port='8080',database = 'cricket_api',user="root",password="krishna12370")
     return conn
 
 
