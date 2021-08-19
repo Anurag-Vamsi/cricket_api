@@ -1,1 +1,1 @@
-web: gunicorn cricket_api:app
+web: gunicorn app:app
